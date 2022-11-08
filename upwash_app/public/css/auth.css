@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Lato', sans-serif;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+p {
+    margin-top: 20px;
+    display: block;
+}
+
+a {
+    color: #0060FF;
+}
+
+textarea {
+    width: 80%;
+    resize: none;
+    border: 1px solid lightgray !important;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.login__back {
+    margin-left: 5%;
+    padding-top: 40px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    display: block;
+    color: #FF894A;
+    text-decoration: none;
+
+}
+.auth-container {
+    width: 420px;
+    min-height: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 24%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #FFF;
+    text-align: center;
+}
+
+.auth-container h1 {
+    margin-bottom: 36px;
+}
+
+::placeholder {
+    text-transform: capitalize !important;
+    color: rgba(255, 102, 0, 0.66);
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 80%;
+    border: 0;
+    border-bottom: 2px solid #737373;
+    height: 38px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+input[type=submit] {
+    margin-top: 43px;
+    width: 80%;
+    background: #FF9A5A;
+    border-radius: 50px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    padding: 10px;
+    border: unset;
+    color: #FEFEFE;
+}
+
+select {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background: #ff802b;
+}
+
+@media screen and (max-width: 450px) {
+    .auth-container {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+}
+
+.button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: #444444;
+    display: block;
+}
